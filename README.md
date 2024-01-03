@@ -663,6 +663,12 @@ sudo ip link set ligolo up
 ./agent -connect <LHOST>:443 -ignore-cert
 ```
 
+##### Adding subnet to ligolo interface - Kali linux
+
+```c
+sudo ip r add <subnet> dev ligolo
+```
+
 ##### Session
 
 ```c
