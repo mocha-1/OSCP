@@ -681,6 +681,15 @@ sudo ip r add 172.16.1.0/24 dev ligolo
 [Agent : user@target] » start
 ```
 
+```c
+[Agent : user@target] » listener_list
+```
+
+```c
+[Agent : user@target] » listener_add --addr 0.0.0.0:<PORT> --to 127.0.0.1:<PORT>
+```
+
+
 #### Linux
 
 ##### CentOS
